@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+.card {
+    background: #3c3f47;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pagination{
+    margin: 20px;
+}
+
+button{
+    margin: 5px;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #61dafb;
+    color: black;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
